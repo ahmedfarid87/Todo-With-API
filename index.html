@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List with API</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="icon" href="./imags/coging by ahmed.png" />
+  </head>
+
+  <body>
+    <h1 class="w-100 m-auto mt-4">Todo List With API</h1>
+    <div class="w-50 m-auto shadow task-form p-4 my-5 rounded-5">
+      <div class="input-co d-flex justify-content-between">
+        <input
+          id="newTask"
+          type="text"
+          class="form-control my-3"
+          placeholder="New Task.."
+        />
+        <button id="btn" class="btn btn-primary rounded-4 m-auto add-btn">
+          Add
+        </button>
+      </div>
+
+      <div
+        id="textContainer"
+        class="tasks w-75 text-white m-auto align-items-center"
+      >
+        <div class="loading" id="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
